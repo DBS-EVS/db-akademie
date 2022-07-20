@@ -1530,7 +1530,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"src\/Tilesets\/decorations-medieval.png",
+         "image":"src\/tilesets\/decorations-medieval.png",
          "imageheight":2176,
          "imagewidth":544,
          "margin":1,
@@ -1543,7 +1543,7 @@
         {
          "columns":31,
          "firstgid":1025,
-         "image":"src\/Tilesets\/theatre.png",
+         "image":"src\/tilesets\/theatre.png",
          "imageheight":1054,
          "imagewidth":1054,
          "margin":1,
@@ -1556,7 +1556,7 @@
         {
          "columns":31,
          "firstgid":1986,
-         "image":"src\/Tilesets\/db_floors.png",
+         "image":"src\/tilesets\/db_floors.png",
          "imageheight":1054,
          "imagewidth":1054,
          "margin":1,
@@ -1579,7 +1579,7 @@
         {
          "columns":8,
          "firstgid":2947,
-         "image":"src\/Tilesets\/fantasy.png",
+         "image":"src\/tilesets\/fantasy.png",
          "imageheight":4352,
          "imagewidth":272,
          "margin":1,
