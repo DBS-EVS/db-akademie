@@ -18,6 +18,13 @@ var zoneTutorial = "tutorial";
 var zoneFeedback = "feedback";
 var zoneMusik = "musik";
 
+var zoneStaffelei1 = "staffelei1";
+var zoneStaffelei2 = "staffelei2";
+var zoneStaffelei3 = "staffelei3";
+var zoneStaffelei4 = "staffelei4";
+var zoneStaffelei5 = "staffelei5";
+
+
 WA.room.onEnterZone(zoneTutorial, () => {
    currentPopup =  WA.ui.openPopup("popUpTutorial","Tutorial ansehen?",[
         {
@@ -80,3 +87,73 @@ WA.room.onLeaveZone(zoneMusik, () =>{
         isCoWebSiteOpened = false;
     }
 })
+
+
+WA.room.onEnterZone(zoneStaffelei1, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei1","Was hättest du gerne eher gewusst?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei1, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
+WA.room.onEnterZone(zoneStaffelei2, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei2","Auf welche Themen kann man Dich immer ansprechen?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei2, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
+WA.room.onEnterZone(zoneStaffelei3, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei3","Was würdest du tun, wenn alles, was du anfängst, ein Erfolg werden würde?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei3, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
+WA.room.onEnterZone(zoneStaffelei4, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei4","Worauf freust du dich jeden Tag am meisten?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei4, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
+
+
+
+WA.room.onEnterZone(zoneStaffelei5, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei5","Was würdest du einem Neuling über die DB erzählen?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei5, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
+
