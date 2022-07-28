@@ -1601,6 +1601,19 @@
          "tilecount":12,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":32,
+         "firstgid":3983,
+         "image":"src\/tilesets\/theatre.png",
+         "imageheight":1054,
+         "imagewidth":1054,
+         "margin":0,
+         "name":"theatre",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
