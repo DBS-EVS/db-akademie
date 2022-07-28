@@ -13,11 +13,9 @@ function closePopUp(){
     }
 }
 
-
 var zoneTutorial = "tutorial";
 var zoneFeedback = "feedback";
 var zoneMusik = "musik";
-
 var zoneStaffelei1 = "staffelei1";
 var zoneStaffelei2 = "staffelei2";
 var zoneStaffelei3 = "staffelei3";
@@ -88,18 +86,12 @@ WA.room.onLeaveZone(zoneMusik, () =>{
     }
 })
 
-
 WA.room.onEnterZone(zoneStaffelei1, () => {
    currentPopup =  WA.ui.openPopup("popUpStaffelei1","Was hättest du gerne eher gewusst?",[]);
 })
 
 WA.room.onLeaveZone(zoneStaffelei1, () =>{
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 })
 
 WA.room.onEnterZone(zoneStaffelei2, () => {
@@ -108,11 +100,6 @@ WA.room.onEnterZone(zoneStaffelei2, () => {
 
 WA.room.onLeaveZone(zoneStaffelei2, () =>{
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 })
 
 WA.room.onEnterZone(zoneStaffelei3, () => {
@@ -121,11 +108,6 @@ WA.room.onEnterZone(zoneStaffelei3, () => {
 
 WA.room.onLeaveZone(zoneStaffelei3, () =>{
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 })
 
 WA.room.onEnterZone(zoneStaffelei4, () => {
@@ -134,15 +116,7 @@ WA.room.onEnterZone(zoneStaffelei4, () => {
 
 WA.room.onLeaveZone(zoneStaffelei4, () =>{
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 })
-
-
-
 
 WA.room.onEnterZone(zoneStaffelei5, () => {
    currentPopup =  WA.ui.openPopup("popUpStaffelei5","Was würdest du einem Neuling über die DB erzählen?",[]);
@@ -150,10 +124,5 @@ WA.room.onEnterZone(zoneStaffelei5, () => {
 
 WA.room.onLeaveZone(zoneStaffelei5, () =>{
     closePopUp();
-
-    if (isCoWebSiteOpened) {
-        WA.nav.closeCoWebSite();
-        isCoWebSiteOpened = false;
-    }
 })
 
