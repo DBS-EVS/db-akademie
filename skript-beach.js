@@ -45,7 +45,7 @@ WA.room.onLeaveZone(zoneTutorial, () =>{
 })
 
 WA.room.onEnterZone(zoneFeedback, () => {
-   currentPopup =  WA.ui.openPopup("popUpFeedback","Möchtest du WorkAdventure einen Feedback abgeben?",[
+   currentPopup =  WA.ui.openPopup("popUpFeedback","Möchtest du zu WorkAdventure einen Feedback abgeben?",[
         {
             label: "OK",
             callback: (popup => {
