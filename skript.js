@@ -15,7 +15,7 @@ var zoneFeedback = "feedbackAkademie";
 var zoneStaffelei6 = "staffelei6";
 
 WA.room.onEnterZone(zoneFeedback, () => {
-   currentPopup =  WA.ui.openPopup("popUpAkademie","Hier kannst du Feedback abgeben.",[
+   currentPopup =  WA.ui.openPopup("popUpAkademie","Gib hier dein Feedback zu \"Praktisches Netzwerken\" ab.",[
         {
             label: "OK",
             callback: (popup => {
