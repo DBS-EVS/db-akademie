@@ -21,6 +21,7 @@ var zoneStaffelei2 = "staffelei2";
 var zoneStaffelei3 = "staffelei3";
 var zoneStaffelei4 = "staffelei4";
 var zoneStaffelei5 = "staffelei5";
+var zoneStaffelei6 = "staffelei6";
 
 
 WA.room.onEnterZone(zoneTutorial, () => {
@@ -126,3 +127,15 @@ WA.room.onLeaveZone(zoneStaffelei5, () =>{
     closePopUp();
 })
 
+WA.room.onEnterZone(zoneStaffelei6, () => {
+   currentPopup =  WA.ui.openPopup("popUpStaffelei6","Was ist dein nützlichstes Talent?\nWelches ist deine Superkraft?",[]);
+})
+
+WA.room.onLeaveZone(zoneStaffelei6, () =>{
+    closePopUp();
+
+    if (isCoWebSiteOpened) {
+        WA.nav.closeCoWebSite();
+        isCoWebSiteOpened = false;
+    }
+})
