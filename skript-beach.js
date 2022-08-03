@@ -23,7 +23,6 @@ var zoneStaffelei4 = "staffelei4";
 var zoneStaffelei5 = "staffelei5";
 var zoneStaffelei6 = "staffelei6";
 
-
 WA.room.onEnterZone(zoneTutorial, () => {
    currentPopup =  WA.ui.openPopup("popUpTutorial","Tutorial ansehen?",[
         {
