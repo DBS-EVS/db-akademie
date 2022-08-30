@@ -279,7 +279,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/db-akadmie-theater#entrance3"
+                 "value":""
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -336,7 +336,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/db-akademie-theater#entrance2"
+                 "value":""
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -393,7 +393,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/db-akademie-theater#entrance1"
+                 "value":""
                 }],
          "type":"tilelayer",
          "visible":true,
